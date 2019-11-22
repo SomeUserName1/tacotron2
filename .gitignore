@@ -3,3 +3,4 @@ waveglow_256channels.pt
 tacotron2_statedict.pt
 .ipynb_checkpoints
 out.wav
+first.wav
