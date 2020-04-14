@@ -26,10 +26,17 @@ from train import load_model
 from text import text_to_sequence
 from denoiser import Denoiser
 
+def plot_data(data, figsize=(16, 4)):
+    fig, axes = plt.subplots(1, len(data), figsize=figsize)
+    for i in range(len(data)):
+        axes[i].imshow(data[i], aspect='auto', origin='bottom',
+                        interpolation='none')
+
 def main(text): 
     hparams = create_hparams()
     hparams.sampling_rate = 22050
     hparams.gate_threshold = 0.1
+    hparams.max_decoder_steps = 5000
 
 
     # #### Load model from checkpoint
@@ -61,6 +68,10 @@ def main(text):
 
     # #### Decode text input and plot results
     mel_outputs, mel_outputs_postnet, _, alignments = model.inference(sequence)
+    plot_data((mel_outputs.float().data.cpu().numpy()[0],
+               mel_outputs_postnet.float().data.cpu().numpy()[0],
+               alignments.float().data.cpu().numpy()[0].T))
+   
 
     # #### Synthesize audio from spectrogram using WaveGlow
     with torch.no_grad():
@@ -75,7 +86,12 @@ def main(text):
         out = np.append(x, audio[0].data.cpu().numpy().astype(np.float32))
     else:
         out = audio[0].data.cpu().numpy().astype(np.float32)
+<<<<<<< HEAD
 
+=======
+        librosa.output.write_wav('./first.wav', out, 22050)
+    
+>>>>>>> 64598f0aa9e9388219aed0920f716cb2eccef77b
     librosa.output.write_wav('./out.wav', out, 22050)
 
 
@@ -97,6 +113,7 @@ if __name__ == '__main__':
         safe_text = raw.encode('utf-8', errors='ignore')
     elif args.file.endswith(".txt"):
         with open(args.file, "r") as readfile:
+<<<<<<< HEAD
             safe_text = readfile.read()
 
     print('--- safe text ---') 
@@ -104,3 +121,10 @@ if __name__ == '__main__':
 
     for line in safe_text:
         main(line)
+=======
+            line = readfile.readline()
+            while line:
+                print(line)
+                main(line)
+                line = readfile.readline()
+>>>>>>> 64598f0aa9e9388219aed0920f716cb2eccef77b

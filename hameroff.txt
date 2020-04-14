@@ -1,169 +1,262 @@
- 
-Abstract
-
-Cognitive brain functions including sensory processing and control of behavior are understood as “neurocomputation” in axonal–dendritic synaptic networks of “integrate-and-fire” neurons. Cognitive neurocomputation with consciousness is accompanied by 30- to 90-Hz gamma synchrony electroencephalography (EEG), and non-conscious neurocomputation is not. Gamma synchrony EEG derives largely from neuronal groups linked by dendritic–dendritic gap junctions, forming transient syncytia (“dendritic webs”) in input/integration layers oriented sideways to axonal–dendritic neurocomputational flow. As gap junctions open and close, a gamma-synchronized dendritic web can rapidly change topology and move through the brain as a spatiotemporal envelope performing collective integration and volitional choices correlating with consciousness. The “conscious pilot” is a metaphorical description for a mobile gamma-synchronized dendritic web as vehicle for a conscious agent/pilot which experiences and assumes control of otherwise non-conscious auto-pilot neurocomputation.
-
+Cognitive brain functions including sensory processing and control of behavior are understood as “neurocomputation” in axonal–dendritic synaptic networks of “integrate-and-fire” neurons.
+Cognitive neurocomputation with consciousness is accompanied by 30- to 90-Hz gamma synchrony electroencephalography (EEG), and non-conscious neurocomputation is not.
+Gamma synchrony EEG derives largely from neuronal groups linked by dendritic–dendritic gap junctions, forming transient syncytia (“dendritic webs”) in input/integration layers oriented sideways to axonal–dendritic neurocomputational flow.
+As gap junctions open and close, a gamma-synchronized dendritic web can rapidly change topology and move through the brain as a spatiotemporal envelope performing collective integration and volitional choices correlating with consciousness.
+The “conscious pilot” is a metaphorical description for a mobile gamma-synchronized dendritic web as vehicle for a conscious agent/pilot which experiences and assumes control of otherwise non-conscious auto-pilot neurocomputation.
 1. Introduction: Gamma synchrony and the “conscious pilot”.
-
-Cognitive brain functions are accounted for by information processing in networks of neurons—“neurocomputation.” In each neuron, dendrites and the cell body/soma receive synaptic inputs and integrate them to a threshold for axonal firings as outputs—“integrate and fire.” Cognitive brain functions are thus understood as “neurocomputation” in networks of “integrate-and-fire” neurons.
-
-Despite this understanding, an explanation for conscious awareness eludes modern science. Illustrating this point, philosopher David Chalmers  has characterized non-conscious cognitive brain functions as the “easy problems,” including the brain’s abilities to non-consciously discriminate, categorize, and react to sensory stimuli, integrate information, focus attention, and control behavior. Non-conscious easy problem cognitive functions are largely habitual and also expressed as “zombie” modes  or “auto-pilot” . Chalmers explains that the so-called easy problems are not really that easy but at least seem directly amenable to “neurocomputation,” i.e., the brain’s integrate-and-fire neurons and synapses acting like “bit states” and switches in computers. Neurocomputation can explain non-conscious easy problem, zombie mode, and auto-pilot processes.
-
-The “hard problem” according to Chalmers is the question of how the brain produces conscious control and experience, i.e., phenomenal awareness with subjective feelings, composed of what philosophers call “qualia.” The hard problem refers to the fact that conscious control and experience do not naturally derive from neurocomputation. Without addressing the hard problem per se, neuroscientists aim to identify a “neural correlate of consciousness” (NCC), brain systems active concomitantly with conscious experience . This paper presents a new model of the NCC as a mobile integrator moving through dendritic/somatic input/integration layers of the brain’s neurocomputational networks.
-
-A key point is that non-conscious auto-pilot modes (easy problems, zombie modes) and conscious control and experience (hard problem) are not always separate and distinct. At times, non-conscious auto-pilot modes become driven or accompanied by conscious experience. For example, we often perform complex habitual behaviors like walking or driving while daydreaming, seemingly on auto-pilot with consciousness somewhere else. But when novelty occurs we consciously perceive the scene and assume conscious control—consciousness is able to “tune into and take over” non-conscious processes. So rather than a distinction between non-conscious auto-pilot modes on the one hand and conscious experience on the other, the essential distinction is actually between cognitive neurocomputation which at any given moment is, or is not, accompanied by some added fleeting feature (the “conscious pilot”) which conveys conscious experience and choice.
-
-The best measurable feature correlating with consciousness (i.e., the NCC) is coherent electrical activity in a particular frequency band of the electroencephalogram (EEG). The EEG records tiny brain-generated voltage fluctuations from scalp or brain surface electrodes, producing a complex continually varying signal. An important parameter is the degree of coherence or phase synchrony among voltage fluctuations recorded from different electrodes at any specific EEG frequency. Phase synchrony at various EEG frequencies can occur locally within one brain region, between neighboring and long-range regions, or globally distributed among many spatially separated brain regions.
-
-In the late 1980s, Wolf Singer and colleagues  found specific, phase-synchronized EEG in cats’ visual cortex which was strongly correlated with particular visual stimulation. The phase synchrony they found occurred at around 40 Hz, in the gamma frequency band of the EEG, and became known as “coherent 40 Hz” (gamma covering the range from 30 to 90 Hz). Subsequent studies have shown gamma synchrony in various brain locations correlating with conscious perception, motor control, language, working memory, face and word recognition, sleep/wake and dream cycles, and binding—the issue of how neurocomputational representations occurring in different brain regions and at slightly different moments are bound together in a unified conscious percept.
-
-Location and distribution of gamma synchrony within the brain can change dynamically, shifting on timescales of hundreds of milliseconds or faster. Specific modalities of conscious content reflect particular locations/distributions of gamma synchrony. For example, conscious smell occurs when odorant molecules induce gamma synchrony among olfactory bulb dendrites. With conscious pleasure and reward, gamma synchrony is occurring in ventral tegmentum and nucleus accumbens .
-
-When we are conscious of our surroundings, neurocomputational sensory arousal activity ascends via thalamus to cortex and then through other cortical areas in feed-forward and feedback circuits. These bottom-up and top-down recurrent neurocomputational networks are proposed to represent the world and mediate consciousness, e.g., in a “global workspace” . But thalamocortical arousal is neither necessary nor sufficient for consciousness. We often process sensory information non-consciously while on auto-pilot, e.g., while we drive, walk, or engage in other habitual behaviors. In these situations, thalamocortical arousal and sensory processing continue without consciousness (and without gamma synchrony) . And consciousness occurs without thalamocortical arousal, e.g., in internally generated conscious states like memory recall and daydreaming owing to ongoing cortical–cortical dynamics .
-
-The best measurable correlate of consciousness is long-range (e.g., cortical–cortical) gamma synchrony. In animals and surgical patients undergoing general anesthesia, gamma synchrony between frontal and posterior cortex is the specific marker which disappears with loss of consciousness and returns upon awakening . In what may be considered enhanced or optimized levels of consciousness, highest amplitude, frequency, and phase coherent gamma synchrony have been recorded spanning cortical regions in meditating Tibetan monks .
-
-What are the brain boundaries of gamma synchrony? Using depth electrodes in animals, gamma synchrony has been found between cortical hemispheres and between cortex, thalamus, other sub-cortical regions and even spinal cord . Consciousness may require some critical threshold of gamma-synchronized neurons, e.g., long range (frontal–posterior, bi-hemispheric, corticospinal, ventral tegmentum–nucleus accumbens, etc.), critical number, or distribution. Gamma synchrony and consciousness seemingly redistribute and move together around the brain, able to tune into and assume control of otherwise non-conscious functions.
-
-As a metaphor, consider a passenger airplane cruising on auto-pilot. The conscious pilot is present but not directly in control nor consciously aware of the cockpit view or instrument readings. Perhaps he/she is reading a magazine, chatting in the main cabin or even sleeping and dreaming. Suddenly turbulence occurs or an alarm sounds. The conscious pilot “tunes in and takes over,” directing his/her attention to the view and instrument readings in the cockpit and assuming motor control of the plane and correcting course or elevation to avoid the turbulence. When the situation is resolved, the auto-pilot resumes monitoring and control, and the conscious pilot returns to previous activities, perhaps visiting with a flight attendant in the galley.
-
-In the metaphorical airplane, the auto-pilot tending to the easy problems is the on-board flight computer and instruments. In the brain, non-conscious auto-pilot modes are accounted for by (e.g., thalamocortical) neurocomputation, i.e., the brain’s neuronal firings and synaptic transmissions acting like “bit states” and switches in computers.
-
-What about the conscious pilot? Gamma synchrony is the logical candidate, correlating with consciousness and moving and redistributing throughout neurocomputational brain networks. Fully alert, attentive consciousness involving thalamocortical sensory arousal accompanied by gamma synchrony is the conscious pilot in the cockpit, perceiving the view and instrument readings and controlling the plane. Daydreaming, conscious memory, and other internally generated states would be gamma synchrony in various cortical areas, hippocampus, nucleus accumbens, etc.—the conscious pilot occupied elsewhere while the auto-pilot flies the plane.
-
+Cognitive brain functions are accounted for by information processing in networks of neurons—“neurocomputation”.
+In each neuron, dendrites and the soma receive synaptic inputs and integrate them to a threshold for axonal firings as outputs—“integrate and fire.” Cognitive brain functions are thus understood as “neurocomputation” in networks of “integrate-and-fire” neurons.
+Despite this understanding, an explanation for conscious awareness eludes modern science.
+Illustrating this point, philosopher David Chalmers  has characterized non-conscious cognitive brain functions as the “easy problems,” including the brain’s abilities to non-consciously discriminate, categorize, and react to sensory stimuli, integrate information, focus attention, and control behavior.
+Non-conscious easy problem cognitive functions are largely habitual and also expressed as “zombie” modes  or “auto-pilot”.
+Chalmers explains that the so-called easy problems are not really that easy but at least seem directly amenable to “neurocomputation,” i.e., the brain’s integrate-and-fire neurons and synapses acting like “bit states” and switches in computers.
+Neurocomputation can explain non-conscious easy problem, zombie mode, and auto-pilot processes.
+The “hard problem” according to Chalmers is the question of how the brain produces conscious control and experience, i.e., phenomenal awareness with subjective feelings, composed of what philosophers call “qualia”.
+The hard problem refers to the fact that conscious control and experience do not naturally derive from neurocomputation.
+Without addressing the hard problem per se, neuroscientists aim to identify a “neural correlate of consciousness” (NCC), brain systems active concomitantly with conscious experience.
+This paper presents a new model of the NCC as a mobile integrator moving through dendritic/somatic input/integration layers of the brain’s neurocomputational networks.
+A key point is that non-conscious auto-pilot modes (easy problems, zombie modes) and conscious control and experience (hard problem) are not always separate and distinct.
+At times, non-conscious auto-pilot modes become driven or accompanied by conscious experience.
+For example, we often perform complex habitual behaviors like walking or driving while daydreaming, seemingly on auto-pilot with consciousness somewhere else.
+But when novelty occurs we consciously perceive the scene and assume conscious control—consciousness is able to “tune into and take over” non-conscious processes.
+So rather than a distinction between non-conscious auto-pilot modes on the one hand and conscious experience on the other, the essential distinction is actually between cognitive neurocomputation which at any given moment is, or is not, accompanied by some added fleeting feature (the “conscious pilot”) which conveys conscious experience and choice.
+The best measurable feature correlating with consciousness (i.e., the NCC) is coherent electrical activity in a particular frequency band of the electroencephalogram (EEG).
+The EEG records tiny brain-generated voltage fluctuations from scalp or brain surface electrodes, producing a complex continually varying signal. An important parameter is the degree of coherence or phase synchrony among voltage fluctuations recorded from different electrodes at any specific EEG frequency.
+Phase synchrony at various EEG frequencies can occur locally within one brain region, between neighboring and long-range regions, or globally distributed among many spatially separated brain regions.
+In the late 1980s, Wolf Singer and colleagues  found specific, phase-synchronized EEG in cats’ visual cortex which was strongly correlated with particular visual stimulation.
+The phase synchrony they found occurred at around 40 Hz, in the gamma frequency band of the EEG, and became known as “coherent 40 Hz” (gamma covering the range from 30 to 90 Hz).
+Subsequent studies have shown gamma synchrony in various brain locations correlating with conscious perception, motor control, language, working memory, face and word recognition, sleep/wake and dream cycles, and binding—the issue of how neurocomputational representations occurring in different brain regions and at slightly different moments are bound together in a unified conscious percept.
+Location and distribution of gamma synchrony within the brain can change dynamically, shifting on timescales of hundreds of milliseconds or faster.
+Specific modalities of conscious content reflect particular locations/distributions of gamma synchrony. 
+For example, conscious smell occurs when odorant molecules induce gamma synchrony among olfactory bulb dendrites.
+With conscious pleasure and reward, gamma synchrony is occurring in ventral tegmentum and nucleus accumbens.
+When we are conscious of our surroundings, neurocomputational sensory arousal activity ascends via thalamus to cortex and then through other cortical areas in feed-forward and feedback circuits.
+These bottom-up and top-down recurrent neurocomputational networks are proposed to represent the world and mediate consciousness, e.g., in a “global workspace”.
+But thalamocortical arousal is neither necessary nor sufficient for consciousness. We often process sensory information non-consciously while on auto-pilot, e.g., while we drive, walk, or engage in other habitual behaviors.
+In these situations, thalamocortical arousal and sensory processing continue without consciousness (and without gamma synchrony).
+And consciousness occurs without thalamocortical arousal, e.g., in internally generated conscious states like memory recall and daydreaming owing to ongoing cortical–cortical dynamics.
+The best measurable correlate of consciousness is long-range (e.g., cortical–cortical) gamma synchrony.
+In animals and surgical patients undergoing general anesthesia, gamma synchrony between frontal and posterior cortex is the specific marker which disappears with loss of consciousness and returns upon awakening.
+In what may be considered enhanced or optimized levels of consciousness, highest amplitude, frequency, and phase coherent gamma synchrony have been recorded spanning cortical regions in meditating Tibetan monks.
+What are the brain boundaries of gamma synchrony? 
+Using depth electrodes in animals, gamma synchrony has been found between cortical hemispheres and between cortex, thalamus, other sub-cortical regions and even spinal cord. 
+Consciousness may require some critical threshold of gamma-synchronized neurons, e.g., long range (frontal–posterior, bi-hemispheric, corticospinal, ventral tegmentum–nucleus accumbens, etc.), critical number, or distribution. 
+Gamma synchrony and consciousness seemingly redistribute and move together around the brain, able to tune into and assume control of otherwise non-conscious functions.
+As a metaphor, consider a passenger airplane cruising on auto-pilot. 
+The conscious pilot is present but not directly in control nor consciously aware of the cockpit view or instrument readings. 
+Perhaps he/she is reading a magazine, chatting in the main cabin or even sleeping and dreaming. 
+Suddenly turbulence occurs or an alarm sounds. The conscious pilot “tunes in and takes over,” directing his/her attention to the view and instrument readings in the cockpit and assuming motor control of the plane and correcting course or elevation to avoid the turbulence.
+When the situation is resolved, the auto-pilot resumes monitoring and control, and the conscious pilot returns to previous activities, perhaps visiting with a flight attendant in the galley.
+In the metaphorical airplane, the auto-pilot tending to the easy problems is the on-board flight computer and instruments. 
+In the brain, non-conscious auto-pilot modes are accounted for by (e.g., thalamocortical) neurocomputation, i.e., the brain’s neuronal firings and synaptic transmissions acting like “bit states” and switches in computers.
+What about the conscious pilot? 
+Gamma synchrony is the logical candidate, correlating with consciousness and moving and redistributing throughout neurocomputational brain networks.
+Fully alert, attentive consciousness involving thalamocortical sensory arousal accompanied by gamma synchrony is the conscious pilot in the cockpit, perceiving the view and instrument readings and controlling the plane. 
+Daydreaming, conscious memory, and other internally generated states would be gamma synchrony in various cortical areas, hippocampus, nucleus accumbens, etc.—the conscious pilot occupied elsewhere while the auto-pilot flies the plane.
 But gamma synchrony (like consciousness) does not directly ensue from neurocomputation.
-
-
 2. Neurocomputation: The computer-like brain and the brain-like computer.
-
-In the past half century, brain function has been understood in the context of how computers operate, and development of computers has benefited from knowledge of brain function—“neurocomputation.”
-
-In computers, discrete electron states in silicon represent fundamental information units (e.g., “bits”) which interact, receive inputs from other states, and—according to some form of logic—produce outputs. With feedback, flows of inputs and outputs scale up to networks of networks which, like brains, solve problems, simulate reality, and regulate complex behaviors.
-
-In the brain, discrete neuronal states enabling computation were established by Spanish neuroanatomist Santiago Ramón y Cajal  who showed the brain to be composed largely of individual filamentous neuronal cells, or neurons, subsequently demonstrated to communicate with other neurons by chemical synapses. Cajal’s discrete neurons eclipsed the previous view of Italian scientist Camillo Golgi that the brain was a threaded-together reticulum or mesh-like syncytium of uninterrupted filamentous neuronal processes.
-In the context of computation, Cajal’s neurons play the role of “integrate-and-fire” threshold logic devices. Neurons generally consist of multiple branched dendrites and a cell body (soma) which receive and integrate synaptic inputs to a specific voltage potential at a region on the proximal axon membrane (Fig. 1a). This region, the axon hillock or axon initiation segment, has an inherent threshold which, when met by the integrated potential, triggers an action potential “firing” or “spike” as output, conveyed along the axon to the next synapse.
-Open image in new window.
-
-Three characterizations of a neuron. a Biological neuron with multiple dendrites and one cell body (soma) receiving synaptic inputs. The axon initiation segment (AIS) is where axonal spikes/firings are triggered, and a single axon branches distally to convey outputs. b Computer-based artificial neuron (e.g., a “perceptron”) with multiple weighted inputs and single branched output. c Toy neuron (see subsequent figures) showing the same essential features with three inputs on one dendrite and single axonal output which branches distally
-
-Axonal firings or spikes do not dissipate once triggered (“all or none”) and are thus comparable to both digital outputs and inputs in computers, e.g., binary bits which convey information. In most approaches, dendritic integration beyond synaptic weighting is considered purely passive summation of weighted spike inputs and otherwise ignored. Recordings from single neurons in the brains of animals and occasionally humans show correlations between spike frequency and specific perceptions and behaviors . Axonal spikes/firings are viewed as the primary currency of neurocomputation and the NCC . With weighted synaptic connection strengths, neurocomputational networks of spiking neurons can account for complex non-conscious cognitive auto-pilot functions.
-
-McCulloch and Pitts  were among the first to abstract integrate-and-fire neurons for use in computer design. The McCulloch–Pitts model neuron had multiple inputs and a single output (Fig. 1b). Inputs were integrated by passive summation to a threshold which, when reached, triggered an all-or-none binary output. With addition of adjustable input strengths, artificial neurons (e.g., the “perceptron”) arose, leading to self-organizing artificial neural networks and brain-like computers capable of adaptive learning . Brain function and the computer were wed.
-Figure 1c shows a toy neuron based on biological and artificial neurons. A neurocomputational network of such toy neurons is shown in Fig. 2. Binary 1 or 0 inputs (left) and outputs (top, right, bottom) correspond with axonal firings/spikes and their synaptic transmissions. Black represents neurons firing; white neurons are not firing. Arbitrary synaptic weighting and dendritic integration are not shown, and in this figure dendritic–dendritic sideways interactions are not considered. This is a simple example of neurocomputation which, in appropriate scale and organization, can account for non-conscious cognitive functions (auto-pilot).
-Open image in new window.
-
-Neurocomputation: time steps 1 and 2 in layered network of toy neurons (Fig. 1c). Synaptic inputs enter on left, spike/firing axonal outputs exit on top, bottom, and right. Black denotes firing/spike; white denotes not firing/no spike (integration not shown). Dendrites in each layer are adjacent and linked by gap junctions which, in these steps, remain closed. Hence, all neurons here function as individual integrate-and-fire threshold logic devices. For a given set of inputs, weighted connections (arbitrary, not shown) determine network behavior and measurable outputs
-
-What about consciousness? Some authorities contend that consciousness emerges from axonal firings as outputs of critically complex neurocomputation or coherent volleys of axonal spikes or “neuronal firing explosions” . Others place consciousness in dendrites and cell bodies/soma of neurons, i.e., in the integration phase of “integrate and fire”.
-
-At the neuronal level, dendritic/somatic integration of synaptic inputs is not passive, involving complex logic functions and signal processing in dendritic spines, local dendritic regions, and intra-dendritic and somatic cytoskeletal processes . Anesthetics act almost exclusively on dendritic and cell body/somatic proteins to erase consciousness, with little or no effects on axonal firing capabilities. And coherent spike volleys/firing explosions are preceded and caused by synchronized dendritic/somatic integrations. Arguably, dendritic/somatic integration is the sub-neuronal correlate of consciousness. And dendritic/somatic integration is the origin of gamma synchrony.
-
-
+In the past half century, brain function has been understood in the context of how computers operate, and development of computers has benefited from knowledge of brain function—“neurocomputation”.
+In computers, discrete electron states in silicon represent fundamental information units (e.g., “bits”) which interact, receive inputs from other states, and—according to some form of logic—produce outputs.
+With feedback, flows of inputs and outputs scale up to networks of networks which, like brains, solve problems, simulate reality, and regulate complex behaviors.
+In the brain, discrete neuronal states enabling computation were established by Spanish neuroanatomist Santiago Ramón y Cajal  who showed the brain to be composed largely of individual filamentous neuronal cells, or neurons, subsequently demonstrated to communicate with other neurons by chemical synapses.
+Cajal’s discrete neurons eclipsed the previous view of Italian scientist Camillo Golgi that the brain was a threaded-together reticulum or mesh-like syncytium of uninterrupted filamentous neuronal processes.
+In the context of computation, Cajal’s neurons play the role of “integrate-and-fire” threshold logic devices.
+Neurons generally consist of multiple branched dendrites and a cell body (soma) which receive and integrate synaptic inputs to a specific voltage potential at a region on the proximal axon membrane.
+This region, the axon hillock or axon initiation segment, has an inherent threshold which, when met by the integrated potential, triggers an action potential “firing” or “spike” as output, conveyed along the axon to the next synapse.
+Three characterizations of a neuron. 
+a Biological neuron with multiple dendrites and one cell body (soma) receiving synaptic inputs. 
+The axon initiation segment (AIS) is where axonal spikes/firings are triggered, and a single axon branches distally to convey outputs. 
+b Computer-based artificial neuron (e.g., a “perceptron”) with multiple weighted inputs and single branched output.
+c Toy neuron (see subsequent figures) showing the same essential features with three inputs on one dendrite and single axonal output which branches distally
+Axonal firings or spikes do not dissipate once triggered (“all or none”) and are thus comparable to both digital outputs and inputs in computers, e.g., binary bits which convey information.
+In most approaches, dendritic integration beyond synaptic weighting is considered purely passive summation of weighted spike inputs and otherwise ignored. Recordings from single neurons in the brains of animals and occasionally humans show correlations between spike frequency and specific perceptions and behaviors.
+Axonal spikes/firings are viewed as the primary currency of neurocomputation and the NCC.
+With weighted synaptic connection strengths, neurocomputational networks of spiking neurons can account for complex non-conscious cognitive auto-pilot functions.
+McCulloch and Pitts  were among the first to abstract integrate-and-fire neurons for use in computer design.
+The McCulloch–Pitts model neuron had multiple inputs and a single output.
+Inputs were integrated by passive summation to a threshold which, when reached, triggered an all-or-none binary output. 
+With addition of adjustable input strengths, artificial neurons (e.g., the “perceptron”) arose, leading to self-organizing artificial neural networks and brain-like computers capable of adaptive learning.
+Brain function and the computer were wed.
+Figure 1c shows a toy neuron based on biological and artificial neurons. 
+A neurocomputational network of such toy neurons is shown in Fig. 2. 
+Binary 1 or 0 inputs (left) and outputs (top, right, bottom) correspond with axonal firings/spikes and their synaptic transmissions. 
+Black represents neurons firing; white neurons are not firing. 
+Arbitrary synaptic weighting and dendritic integration are not shown, and in this figure dendritic–dendritic sideways interactions are not considered. 
+This is a simple example of neurocomputation which, in appropriate scale and organization, can account for non-conscious cognitive functions (auto-pilot).
+Neurocomputation: time steps 1 and 2 in layered network of toy neurons (Fig. 1c). 
+Synaptic inputs enter on left, spike/firing axonal outputs exit on top, bottom, and right. Black denotes firing/spike; white denotes not firing/no spike (integration not shown). 
+Dendrites in each layer are adjacent and linked by gap junctions which, in these steps, remain closed.
+Hence, all neurons here function as individual integrate-and-fire threshold logic devices. 
+For a given set of inputs, weighted connections (arbitrary, not shown) determine network behavior and measurable outputs.
+What about consciousness? 
+Some authorities contend that consciousness emerges from axonal firings as outputs of critically complex neurocomputation or coherent volleys of axonal spikes or “neuronal firing explosions”.
+Others place consciousness in dendrites and cell bodies/soma of neurons, i.e., in the integration phase of “integrate and fire”.
+At the neuronal level, dendritic/somatic integration of synaptic inputs is not passive, involving complex logic functions and signal processing in dendritic spines, local dendritic regions, and intra-dendritic and somatic cytoskeletal processes. 
+Anesthetics act almost exclusively on dendritic and cell body/somatic proteins to erase consciousness, with little or no effects on axonal firing capabilities.
+And coherent spike volleys/firing explosions are preceded and caused by synchronized dendritic/somatic integrations.
+Arguably, dendritic/somatic integration is the sub-neuronal correlate of consciousness.
+And dendritic/somatic integration is the origin of gamma synchrony.
 3. Conscious moments and gamma “sideways synchrony”.
-
-In computers, discrete operations are performed synchronously in many parallel computational elements operating at a particular clock speed (up to 3 GHz—three billion cycles per second). Does the brain have a synchronous clocking mechanism? Is consciousness a sequence of discrete events or frames—conscious moments—clocked by gamma-synchronized brain activity?
-
-William James  initially considered consciousness a sequence of “specious moments’” (but then embraced a continuous “stream of consciousness”). Alfred North Whitehead  portrayed consciousness as a sequence of discrete events termed “occasions of experience.” The “perceptual moment” theory of Stroud  described consciousness as discrete events, like sequential frames of a movie.
-
-Evidence in recent years suggests periodicities for perception and reaction times in the range of 20 to 50 ms (e.g., gamma EEG waves; 30 to 90 Hz) and others in a longer range of hundreds of milliseconds (e.g., theta EEG waves; 3 to 7 Hz), the latter consistent with saccades and the visual gestalt . Woolf and Hameroff  and VanRullen and Koch  have suggested that the visual scene correlates with a series of fast gamma waves (each corresponding to specific visual components, e.g., shape, color, motion) riding on a slower theta wave. Freeman  characterized theta waves with finer-scale cortical dynamics as cinema-like frames of conscious content. Conscious perception may consist of theta-synchronized scenes, each composed of gamma-synchronized frames. , 16 Gamma synchrony can provide sequences of discrete conscious frames or moments.
-
-Following Singer’s work in the 1980s, authorities viewed particular networks of gamma-synchronized neurons as the NCC . But gamma synchrony fell from favor, not because it does not correlate with cognition and consciousness—it clearly does. Gamma synchrony was discounted because it does not correspond with axonal firings or spikes, the assumed currency of axonal–dendritic neurocomputation and the NCC . Like other EEG components, gamma ensues from local field potentials, in turn derived mostly from synchronized dendritic and cell body/somatic post-synaptic potentials, i.e., integration phases of integrate-and-fire neuronal activity.
-
-Phase synchrony at frequencies slower than gamma is readily explained through axonal–dendritic/somatic neurocomputation, i.e., post-synaptic potentials driven coherently by thalamic pacemaking, reciprocal connections, and recurrent feedback . But at gamma frequency phase intervals (e.g., 25 ms for 40 Hz), synaptic delays, and variabilities in spike threshold, neurotransmitter release and axonal conduction times become problematic . The origin of gamma synchrony points in a sideways direction.
-Brain neuronal dendrites and cell bodies/soma receive chemical synaptic inputs from axons of other neurons—the basis for axonal–dendritic feed-forward and feedback neurocomputation (Fig. 2). But dendrites also couple laterally (perpendicular, orthogonal to the flow of axonal–dendritic neurocomputation) to dendrites of neighboring neurons by gap junctions or “electrical synapses” (Fig. 3).
-Open image in new window.
-
-Three toy neurons in an input/integration layer. Adjacent dendrites are connected by gap junction electrical synapses. Upper dendritic–dendritic gap junction is closed while lower gap junction is open, enabling dendritic synchrony represented by vertical stripes
-
-Gap junctions are direct windows between adjacent cells formed by paired collars of proteins called connexins  and pannexins . Neurons connected by gap junctions have continuous internal cytoplasm and synchronized membranes and “behave like one giant neuron” . Membrane potentials on one side of a dendritic–dendritic gap junction induce a “spikelet” or prepotential into the opposite side, integrating dendritic potentials (along with axonal inputs) to drive synchrony .
-
-In the late 1990s, experiments began to show that gamma synchrony in various specific brain regions requires dendritic–dendritic gap junction coupling of groups of neurons .
-
-In cortex, inter-neurons have many dendrites which form gap junction connections with up to 70 other neurons or glia . Inter-neurons often have dual synapses—their axons form an inhibitory γ-aminobutyric acid chemical synapse on another neuron’s dendrite, while the same two cells share dendritic–dendritic gap junctions . Dendrites arising in all directions from cell bodies of inter-neurons in cortical layers 2 through 6 form gap junctions with inter-neurons based in all other layers. A “dendritic web” of gap-junction-connected inter-neurons pervades the cortex, extending “in a boundless manner” .
-
-Primary neurons including pyramidal cells also have gap junction connections, e.g., on horizontally arrayed basal dendrites up to 200 μm away from the cell body . Pyramidal cell dendrites coupled by gap junctions (including axonal–axonal gap junctions) form a continuous lateral layer through the hippocampus . The extent of gap junctions between inter-neurons and primary neurons, between neuronal axons, and between neurons and glia are as yet unknown.
-
-Neurons and glia connected by gap junctions may be viewed as subsets of Golgi’s threaded-together reticulum, described as “syncytia” , “hyper-neurons” , or “dendritic webs” . In neurocomputational network terms, dendritic webs are laterally connected input/integration layers.
-Could gap junction networks extend, not only through cortex, but among all brain regions—a “brain-wide web”? Traub et al.  suggest that bilateral cortical gamma synchrony is mediated by axonal–axonal gap junctions in thalamus, i.e., between descending cortical–thalamic neurons. However, bilateral gamma synchrony also depends on the corpus callosum . Glial cells including oligodendrocytes have gap junction connections with neurons and other glia, extend great distances throughout the brain, and could enable brain-wide gap junction networks. Figure 4 shows six possible mechanisms for bi-hemispheric global gamma synchrony.
-Open image in new window.
-
-Schematic representation of possible mechanisms of bi-hemispheric cortical synchrony. Single neurons are used to illustrate dendritic webs composed of many gap-junction-connected neurons and glia. Top row (a–c) involve axonal–dendritic proposals, bottom row (d–f) involve gap junction explanations. a Axonal–dendritic feedback/reciprocal connections though corpus callosum , b axonal–dendritic feedback though thalamus , c thalamic pacemaker , d axonal–axonal gap junctions in thalamus , e dendritic web (e.g., including glia) through corpus callosum, f dendritic web (e.g., including glia) through thalamus and corpus callosum.
-
-Within a potential brain-wide web of gap-junction-connected neurons and glia, gamma-synchronized dendritic webs are particular subsets determined by gap junction dynamics, i.e., openings and closings. Gap junctions which are open act to electrically couple adjoining cells, inducing synchrony. Gap junctions which are closed do not couple and do not induce synchrony. Placement, openings, and closings of gap junctions are regulated by intra-neuronal calcium ions, cytoskeletal microtubules, and/or phosphorylation via G-protein metabotropic receptor activity . As various gap junctions open and close, form and disappear, the topology, location, and extent of synchronized dendritic web syncytia can change and move sideways through input/integration layers of axonal–dendritic networks throughout the brain.
-
-The number of possible dendritic webs among billions of brain neurons and glia provides a near-infinite variety of topological syncytia, representational “Turing structures” which may be isomorphic with cognitive or conscious content . Fleetingly shifting dendritic webs—spatiotemporal envelopes of dendritic synchrony—can correlate with conscious scenes and frames.
-To illustrate, Figs. 5 and 6 continue the neurocomputational steps of Fig. 2, but with gap junctions which may open between dendrites. In step 3 (Fig. 5, left), a gap junction opens between dendrites of adjacent neurons in an inner layer, causing the two neuronal dendrites to become synchronized in a dendritic web (represented by vertical stripes). In steps 4 through 6, more gap junctions open as the dendritic web evolves and grows through specific topologies, e.g., becoming U-shaped in step 6. Thus, dendritic web synchrony can move “sideways” through integration layers of functioning neurocomputational networks.
-Open image in new window.
-
-Time steps 3 and 4 of network of toy neurons. In step 3, a gap junction has opened between dendrites of two neurons in the second layer, bringing dendritic synchrony (vertical stripes) for those two neurons comprising a dendritic web. In step 4 (right), additional gap junctions have opened and the dendritic web has grown and evolved, now involving six neurons. Axonal outputs from neurons within the synchronized web reflect collective integration (“conscious pilot”) and are marked by asterisks
-Open image in new window.
-
-Time steps 5 and 6 of network of toy neurons. In step 5 (left), more gap junctions have opened and the dendritic web has evolved into a “w-shaped” web of nine neurons. In step 6, the web has evolved and moved to a “u-shaped” web of 15 neurons. Axonal outputs from neurons within the synchronized web, reflecting collective integration (“conscious pilot”), are marked by asterisks.
-
-In Figs. 5 and 6, outputs from dendritic web (striped) neurons may be either 1 or 0. Outputs denoted in the figures by 1* or 0* are chosen by collective integration involving all neuronal members of a synchronized dendritic web. Metaphorically, these outputs are actions of the conscious pilot, a mobile integrator.
-
-Such two-dimensional toy network webs may extrapolate to three-dimensional complex systems of neurons and glia and extend widely throughout cortex and brain. The step transitions correspond with gamma-synchronized frames, conscious moments. Spatially and temporally, a synchronized dendritic web moving through the brain is a suitable candidate for the NCC.
-
-
+In computers, discrete operations are performed synchronously in many parallel computational elements operating at a particular clock speed (up to 3 GHz—three billion cycles per second). 
+Does the brain have a synchronous clocking mechanism? 
+Is consciousness a sequence of discrete events or frames—conscious moments—clocked by gamma-synchronized brain activity?
+William James  initially considered consciousness a sequence of “specious moments’” (but then embraced a continuous “stream of consciousness”). 
+Alfred North Whitehead  portrayed consciousness as a sequence of discrete events termed “occasions of experience”.
+The “perceptual moment” theory of Stroud  described consciousness as discrete events, like sequential frames of a movie.
+Evidence in recent years suggests periodicities for perception and reaction times in the range of 20 to 50 ms (e.g., gamma EEG waves; 30 to 90 Hz) and others in a longer range of hundreds of milliseconds (e.g., theta EEG waves; 3 to 7 Hz), the latter consistent with saccades and the visual gestalt.
+Woolf and Hameroff  and VanRullen and Koch  have suggested that the visual scene correlates with a series of fast gamma waves (each corresponding to specific visual components, e.g., shape, color, motion) riding on a slower theta wave. 
+Freeman  characterized theta waves with finer-scale cortical dynamics as cinema-like frames of conscious content.
+Conscious perception may consist of theta-synchronized scenes, each composed of gamma-synchronized frames.
+16 Gamma synchrony can provide sequences of discrete conscious frames or moments.
+Following Singer’s work in the 1980s, authorities viewed particular networks of gamma-synchronized neurons as the NCC. 
+But gamma synchrony fell from favor, not because it does not correlate with cognition and consciousness, it clearly does. 
+Gamma synchrony was discounted because it does not correspond with axonal firings or spikes, the assumed currency of axonal–dendritic neurocomputation and the NCC. 
+Like other EEG components, gamma ensues from local field potentials, in turn derived mostly from synchronized dendritic and cell body/somatic post-synaptic potentials, i.e., integration phases of integrate-and-fire neuronal activity.
+Phase synchrony at frequencies slower than gamma is readily explained through axonal–dendritic/somatic neurocomputation, i.e., post-synaptic potentials driven coherently by thalamic pacemaking, reciprocal connections, and recurrent feedback. 
+But at gamma frequency phase intervals (e.g., 25 ms for 40 Hz), synaptic delays, and variabilities in spike threshold, neurotransmitter release and axonal conduction times become problematic. 
+The origin of gamma synchrony points in a sideways direction.
+Brain neuronal dendrites and cell bodies/soma receive chemical synaptic inputs from axons of other neurons—the basis for axonal–dendritic feed-forward and feedback neurocomputation. 
+But dendrites also couple laterally (perpendicular, orthogonal to the flow of axonal–dendritic neurocomputation) to dendrites of neighboring neurons by gap junctions or “electrical synapses”.
+Three toy neurons in an input/integration layer. 
+Adjacent dendrites are connected by gap junction electrical synapses. 
+Upper dendritic–dendritic gap junction is closed while lower gap junction is open, enabling dendritic synchrony represented by vertical stripes.
+Gap junctions are direct windows between adjacent cells formed by paired collars of proteins called connexins  and pannexins.
+Neurons connected by gap junctions have continuous internal cytoplasm and synchronized membranes and “behave like one giant neuron”.
+Membrane potentials on one side of a dendritic–dendritic gap junction induce a “spikelet” or prepotential into the opposite side, integrating dendritic potentials (along with axonal inputs) to drive synchrony.
+In the late 1990s, experiments began to show that gamma synchrony in various specific brain regions requires dendritic–dendritic gap junction coupling of groups of neurons.
+In cortex, inter-neurons have many dendrites which form gap junction connections with up to 70 other neurons or glia. 
+Inter-neurons often have dual synapses—their axons form an inhibitory γ-aminobutyric acid chemical synapse on another neuron’s dendrite, while the same two cells share dendritic–dendritic gap junctions.
+Dendrites arising in all directions from cell bodies of inter-neurons in cortical layers 2 through 6 form gap junctions with inter-neurons based in all other layers.
+A “dendritic web” of gap-junction-connected inter-neurons pervades the cortex, extending “in a boundless manner”.
+Primary neurons including pyramidal cells also have gap junction connections, e.g., on horizontally arrayed basal dendrites up to 200 μm away from the cell body.
+Pyramidal cell dendrites coupled by gap junctions (including axonal–axonal gap junctions) form a continuous lateral layer through the hippocampus. 
+The extent of gap junctions between inter-neurons and primary neurons, between neuronal axons, and between neurons and glia are as yet unknown.
+Neurons and glia connected by gap junctions may be viewed as subsets of Golgi’s threaded-together reticulum, described as “syncytia” , “hyper-neurons” , or “dendritic webs”.
+In neurocomputational network terms, dendritic webs are laterally connected input/integration layers.
+Could gap junction networks extend, not only through cortex, but among all brain regions—a “brain-wide web”?
+Traub et al.  suggest that bilateral cortical gamma synchrony is mediated by axonal–axonal gap junctions in thalamus, i.e., between descending cortical–thalamic neurons.
+However, bilateral gamma synchrony also depends on the corpus callosum.
+Glial cells including oligodendrocytes have gap junction connections with neurons and other glia, extend great distances throughout the brain, and could enable brain-wide gap junction networks.
+Figure 4 shows six possible mechanisms for bi-hemispheric global gamma synchrony.
+Schematic representation of possible mechanisms of bi-hemispheric cortical synchrony.
+Single neurons are used to illustrate dendritic webs composed of many gap-junction-connected neurons and glia.
+Top row (a–c) involve axonal–dendritic proposals, bottom row (d–f) involve gap junction explanations.
+a Axonal–dendritic feedback/reciprocal connections though corpus callosum , b axonal–dendritic feedback though thalamus , c thalamic pacemaker , d axonal–axonal gap junctions in thalamus , e dendritic web (e.g., including glia) through corpus callosum, f dendritic web (e.g., including glia) through thalamus and corpus callosum.
+Within a potential brain-wide web of gap-junction-connected neurons and glia, gamma-synchronized dendritic webs are particular subsets determined by gap junction dynamics, i.e., openings and closings.
+Gap junctions which are open act to electrically couple adjoining cells, inducing synchrony. 
+Gap junctions which are closed do not couple and do not induce synchrony. 
+Placement, openings, and closings of gap junctions are regulated by intra-neuronal calcium ions, cytoskeletal microtubules, and/or phosphorylation via G-protein metabotropic receptor activity.
+As various gap junctions open and close, form and disappear, the topology, location, and extent of synchronized dendritic web syncytia can change and move sideways through input/integration layers of axonal–dendritic networks throughout the brain.
+The number of possible dendritic webs among billions of brain neurons and glia provides a near-infinite variety of topological syncytia, representational “Turing structures” which may be isomorphic with cognitive or conscious content. 
+Fleetingly shifting dendritic webs—spatiotemporal envelopes of dendritic synchrony—can correlate with conscious scenes and frames.
+To illustrate, Figs. 5 and 6 continue the neurocomputational steps of Fig. 2, but with gap junctions which may open between dendrites. 
+In step 3 (Fig. 5, left), a gap junction opens between dendrites of adjacent neurons in an inner layer, causing the two neuronal dendrites to become synchronized in a dendritic web (represented by vertical stripes). 
+In steps 4 through 6, more gap junctions open as the dendritic web evolves and grows through specific topologies, e.g., becoming U-shaped in step 6. 
+Thus, dendritic web synchrony can move “sideways” through integration layers of functioning neurocomputational networks.
+Time steps 3 and 4 of network of toy neurons. 
+In step 3, a gap junction has opened between dendrites of two neurons in the second layer, bringing dendritic synchrony (vertical stripes) for those two neurons comprising a dendritic web. 
+In step 4 (right), additional gap junctions have opened and the dendritic web has grown and evolved, now involving six neurons. 
+Axonal outputs from neurons within the synchronized web reflect collective integration (“conscious pilot”) and are marked by asterisks.
+Time steps 5 and 6 of network of toy neurons. 
+In step 5 (left), more gap junctions have opened and the dendritic web has evolved into a “w-shaped” web of nine neurons. 
+In step 6, the web has evolved and moved to a “u-shaped” web of 15 neurons. 
+Axonal outputs from neurons within the synchronized web, reflecting collective integration (“conscious pilot”), are marked by asterisks.
+In Figs. 5 and 6, outputs from dendritic web (striped) neurons may be either 1 or 0. 
+Outputs denoted in the figures by 1* or 0* are chosen by collective integration involving all neuronal members of a synchronized dendritic web. 
+Metaphorically, these outputs are actions of the conscious pilot, a mobile integrator.
+Such two-dimensional toy network webs may extrapolate to three-dimensional complex systems of neurons and glia and extend widely throughout cortex and brain. 
+The step transitions correspond with gamma-synchronized frames, conscious moments.
+Spatially and temporally, a synchronized dendritic web moving through the brain is a suitable candidate for the NCC.
 4. Agency, the “hard problem” and boundaries of consciousness.
-
-Volition, or agency, is the ability for consciousness to exert causal action, akin to free will. Assuming dendritic web synchrony moves around the brain as the NCC, axonal–dendritic neurocomputation in any particular area continues regardless of whether gamma-synchronized dendritic webs are in the computational pathway. But if dendritic webs are present, axonal spike outputs in that pathway may be influenced by collective integration occurring in synchronized dendrites (* outputs in Figs. 5 and 6). Arguably, collective integration in dendritic/somatic webs can regulate axonal spike outputs more intelligently and efficiently than neurons acting individually. Whether more intelligent or not, spike firing outputs from axons of synchronized dendritic web neurons can differ from those same axons’ outputs when their neurons integrate and fire individually. Thus, dendritic web synchrony (and collective integration) can alter neurocomputational spike outputs, exert causal efficacy, and perform action. Dendritic webs are mobile integrators with agency, the ability to alter and control neurocomputational behavior like the conscious pilot assuming control from the auto-pilot.
-
-Gamma-synchronized dendritic webs (or any NCC model) could provide the vehicle for an underlying process or condition which addresses the “hard problem,” i.e., manifests conscious experience. A number of finer-scale underlying processes have been suggested.
-
-Pockett , McFadden , and Libet  proposed that consciousness is inherent in the complex dynamical morphology and spatiotemporal properties of the brain’s electromagnetic field. The electromagnetic field from gamma synchrony EEG, the best NCC measure, is determined by dendritic webs.
-
-Kasischke and Webb  suggested that consciousness may involve sub-neuronal functions “.... more refined on a higher temporal and smaller spatial scale.” Such faster smaller-scale activities could include intra-neuronal calcium ion gradients , molecular reaction–diffusion patterns, actin sol-gel dynamics, glycolysis , ribosomes , information processing in cytoskeletal microtubules , or some other mechanism. Some suggest consciousness depends on finer-scale processes in the realm of quantum physics . Penrose and Hameroff  proposed that consciousness involves gamma-synchronized quantum computations in microtubules within dendritic webs. They further suggested an approach to the “hard problem” of conscious experience, proposing that precursors or components of conscious experience, or “qualia”, were irreducible and fundamental features of reality (e.g., like spin, mass, or charge). Specific sets of qualia may be accessed and selected by the proposed quantum processes in microtubules .
-
-The concept of organized quantum processes in neurons and living cells has been discounted because of “decoherence,” the tendency for delicate low-energy quantum processes to be drowned out by the seemingly noisy “warm, wet, and noisy” biological environment. However, recent evidence has demonstrated quantum coherence in warm biology, mediated through non-polar regions in proteins . The same type of non-polar regions in microtubules and other neuronal proteins may mediate quantum effects underlying consciousness and long-range gamma synchrony in the brain.
-
-The boundaries of consciousness thus extend inward, to finer-scale processes inside neurons, e.g., to cytoskeletal microtubules, and further still, to quantum processes in non-polar regions inside microtubules and other biomolecules. The origins of consciousness may even extend all the way down to the fundamental level of the universe.
-Any fine-scale process mediating consciousness occurring on membrane surfaces or within neuronal interiors could be structurally unified and temporally synchronized by gap junctions and dendritic webs. To demonstrate, Fig. 7 shows a schematic close-up of two dendrites connected by a gap junction. Within each dendrite’s cytoplasmic interior, microtubules are connected by microtubule-associated proteins. Curved lines and interference patterns represent possible fine-scale processes underlying consciousness (e.g., electromagnetic fields, calcium ion gradients, molecular reaction–diffusion patterns, actin sol-gel dynamics, glycolysis, classical microtubule information processing, and/or microtubule quantum computation with entanglement and quantum coherence). These processes can extend through gap junctions and in principle throughout brain-wide dendritic webs. Thus, dendritic integration webs may unify (on a brain-wide basis) fine-scale processes comprising consciousness.
-Open image in new window.
-
-Schematic of possible underlying finer-scale processes related to consciousness extending through a gap junction to involve dendrites of adjacent neurons and in principle through an entire brain-wide dendritic web. Gap junction (connexin) proteins traverse both membranes; other membrane proteins (receptors/ion channels–smaller black cylinders) traverse one membrane. Microtubules connected by microtubule-associated proteins also shown. Possible processes illustrated by curved concentric interfering lines include electromagnetic fields, calcium ion gradients, molecular reaction–diffusion patterns, actin sol-gel dynamics, glycolysis, microtubule information processing and/or quantum computation, entanglement, etc.
-
-
+Volition, or agency, is the ability for consciousness to exert causal action, akin to free will. 
+Assuming dendritic web synchrony moves around the brain as the NCC, axonal–dendritic neurocomputation in any particular area continues regardless of whether gamma-synchronized dendritic webs are in the computational pathway.
+But if dendritic webs are present, axonal spike outputs in that pathway may be influenced by collective integration occurring in synchronized dendrites (* outputs in Figs. 5 and 6). 
+Arguably, collective integration in dendritic/somatic webs can regulate axonal spike outputs more intelligently and efficiently than neurons acting individually.
+Whether more intelligent or not, spike firing outputs from axons of synchronized dendritic web neurons can differ from those same axons’ outputs when their neurons integrate and fire individually.
+Thus, dendritic web synchrony (and collective integration) can alter neurocomputational spike outputs, exert causal efficacy, and perform action. 
+Dendritic webs are mobile integrators with agency, the ability to alter and control neurocomputational behavior like the conscious pilot assuming control from the auto-pilot.
+Gamma-synchronized dendritic webs (or any NCC model) could provide the vehicle for an underlying process or condition which addresses the “hard problem,” i.e., manifests conscious experience. 
+A number of finer-scale underlying processes have been suggested.
+Pockett , McFadden , and Libet  proposed that consciousness is inherent in the complex dynamical morphology and spatiotemporal properties of the brain’s electromagnetic field. 
+The electromagnetic field from gamma synchrony EEG, the best NCC measure, is determined by dendritic webs.
+Kasischke and Webb  suggested that consciousness may involve sub-neuronal functions “more refined on a higher temporal and smaller spatial scale”.
+Such faster smaller-scale activities could include intra-neuronal calcium ion gradients , molecular reaction–diffusion patterns, actin sol-gel dynamics, glycolysis , ribosomes , information processing in cytoskeletal microtubules , or some other mechanism. 
+Some suggest consciousness depends on finer-scale processes in the realm of quantum physics.
+Penrose and Hameroff  proposed that consciousness involves gamma-synchronized quantum computations in microtubules within dendritic webs. 
+They further suggested an approach to the “hard problem” of conscious experience, proposing that precursors or components of conscious experience, or “qualia”, were irreducible and fundamental features of reality (e.g., like spin, mass, or charge). 
+Specific sets of qualia may be accessed and selected by the proposed quantum processes in microtubules.
+The concept of organized quantum processes in neurons and living cells has been discounted because of “decoherence,” the tendency for delicate low-energy quantum processes to be drowned out by the seemingly noisy “warm, wet, and noisy” biological environment.
+However, recent evidence has demonstrated quantum coherence in warm biology, mediated through non-polar regions in proteins. 
+The same type of non-polar regions in microtubules and other neuronal proteins may mediate quantum effects underlying consciousness and long-range gamma synchrony in the brain.
+The boundaries of consciousness thus extend inward, to finer-scale processes inside neurons, e.g., to cytoskeletal microtubules, and further still, to quantum processes in non-polar regions inside microtubules and other biomolecules. 
+The origins of consciousness may even extend all the way down to the fundamental level of the universe.
+Any fine-scale process mediating consciousness occurring on membrane surfaces or within neuronal interiors could be structurally unified and temporally synchronized by gap junctions and dendritic webs. 
+To demonstrate, Fig. 7 shows a schematic close-up of two dendrites connected by a gap junction. 
+Within each dendrite’s cytoplasmic interior, microtubules are connected by microtubule-associated proteins. 
+Curved lines and interference patterns represent possible fine-scale processes underlying consciousness (e.g., electromagnetic fields, calcium ion gradients, molecular reaction–diffusion patterns, actin sol-gel dynamics, glycolysis, classical microtubule information processing, and/or microtubule quantum computation with entanglement and quantum coherence). 
+These processes can extend through gap junctions and in principle throughout brain-wide dendritic webs. 
+Thus, dendritic integration webs may unify (on a brain-wide basis) fine-scale processes comprising consciousness.
+Schematic of possible underlying finer-scale processes related to consciousness extending through a gap junction to involve dendrites of adjacent neurons and in principle through an entire brain-wide dendritic web. 
+Gap junction (connexin) proteins traverse both membranes; other membrane proteins (receptors/ion channels–smaller black cylinders) traverse one membrane. 
+Microtubules connected by microtubule-associated proteins also shown. 
+Possible processes illustrated by curved concentric interfering lines include electromagnetic fields, calcium ion gradients, molecular reaction–diffusion patterns, actin sol-gel dynamics, glycolysis, microtubule information processing and/or quantum computation, entanglement, etc.
 5. Open questions and testable predictions.
-
-The conscious pilot NCC model proposes spatiotemporal envelopes of gamma synchrony (structurally defined by gap-junction-connected dendritic webs) move through the brain and mediate consciousness. As such, the model can be falsified by testable predictions in several categories.
-
+The conscious pilot NCC model proposes spatiotemporal envelopes of gamma synchrony (structurally defined by gap-junction-connected dendritic webs) move through the brain and mediate consciousness.
+As such, the model can be falsified by testable predictions in several categories.
 Gap junction dynamics and dendritic web transitions.
-
-Long-range gamma synchrony and consciousness apparently move around the brain rapidly and abruptly, like critical phase transitions . The fleeting synchronized spatiotemporal transitions and precise coherence on the order of tens of centimeters and tens of milliseconds are difficult to explain by axonal–dendritic networks. In principle, gap junction openings and closings can account for rapid sideways synchrony and dendritic web movements which correlate with consciousness. Do they?
-
+Long-range gamma synchrony and consciousness apparently move around the brain rapidly and abruptly, like critical phase transitions. 
+The fleeting synchronized spatiotemporal transitions and precise coherence on the order of tens of centimeters and tens of milliseconds are difficult to explain by axonal–dendritic networks. 
+In principle, gap junction openings and closings can account for rapid sideways synchrony and dendritic web movements which correlate with consciousness. 
+Do they?
 Unity of consciousness and the brain-wide web.
-
-If consciousness correlates with dendritic web topologies, then at any one moment there should be only one dendritic web which will have exceeded some threshold for consciousness. For global synchrony (and metacognitive self-modes of consciousness), gap-junction-linked neurons and glia are required to span the brain, i.e., form a dendritic web syncytium extending frontal–posterior, right to left hemispheres, thalamocortical, limbic circuits, etc. (some possibilities are shown in Fig. 6). Using metabolic tracing, John et al.  showed evidence of extension of dye via gap junction channels extending through neurons and glia in both cortical hemispheres. Fukuda  has shown dendritic gap junction networks of inter-neurons extending “boundlessly” within cortex. Whether dendritic webs do indeed extend globally throughout the brain is empirically testable.
-
+If consciousness correlates with dendritic web topologies, then at any one moment there should be only one dendritic web which will have exceeded some threshold for consciousness. 
+For global synchrony (and metacognitive self-modes of consciousness), gap-junction-linked neurons and glia are required to span the brain, i.e., form a dendritic web syncytium extending frontal–posterior, right to left hemispheres, thalamocortical, limbic circuits, etc.
+Using metabolic tracing, John et al.  showed evidence of extension of dye via gap junction channels extending through neurons and glia in both cortical hemispheres.
+Fukuda  has shown dendritic gap junction networks of inter-neurons extending “boundlessly” within cortex. Whether dendritic webs do indeed extend globally throughout the brain is empirically testable.
 Blindsight.
-
-Gamma synchrony distinguishes conscious versus unconscious word perception  and (“conscious”) dreams from apparently dreamless sleep . Another distinction between conscious and unconscious processing occurs in subjects with lesions of certain areas of visual cortex . Blindsight patients have unconscious vision, e.g., reacting cognitively to objects they do not consciously “see.” Blindsight may occur in a region of brain permanently on auto-pilot, retaining axonal–dendritic neurocomputation but lacking dendritic sideways synchrony mediated by gap junctions.
-
+Gamma synchrony distinguishes conscious versus unconscious word perception  and (“conscious”) dreams from apparently dreamless sleep. 
+Another distinction between conscious and unconscious processing occurs in subjects with lesions of certain areas of visual cortex.
+Blindsight patients have unconscious vision, e.g., reacting cognitively to objects they do not consciously “see”.
+Blindsight may occur in a region of brain permanently on auto-pilot, retaining axonal–dendritic neurocomputation but lacking dendritic sideways synchrony mediated by gap junctions.
 Anesthesia.
-
-Under general anesthesia with anesthetic gases, consciousness is erased along with gamma synchrony EEG while slower EEG and evoked potential activity continue. Anesthetic gases act primarily on post-synaptic dendrites, specifically on a class of ∼70 membrane and cytoplasmic proteins (including connexin 36). Do sideways synchrony and consciousness selectively cease under anesthesia while axonal–dendritic auto-pilot neurocomputation continues?
-
+Under general anesthesia with anesthetic gases, consciousness is erased along with gamma synchrony EEG while slower EEG and evoked potential activity continue. 
+Anesthetic gases act primarily on post-synaptic dendrites, specifically on a class of ∼70 membrane and cytoplasmic proteins (including connexin 36). 
+Do sideways synchrony and consciousness selectively cease under anesthesia while axonal–dendritic auto-pilot neurocomputation continues?
 Agency.
-
-Dendritic web synchrony is proposed to affect axonal spike/firing outputs via collective integration among dendrites of the web’s multiple neurons. For each neuron, integration relates to spike/firing threshold—the voltage potential required at the axon initiation segment to trigger or fire an action potential spike. Naundorf et al. found significant variability in spike threshold in cortical neurons in vivo compared to in vitro or simulated neurons. Are this variability and its consequent alteration of outputs dependent on collective integration among gap-junction-synchronized dendrites? Does it correlate with consciousness?
-
+Dendritic web synchrony is proposed to affect axonal spike/firing outputs via collective integration among dendrites of the web’s multiple neurons.
+For each neuron, integration relates to spike/firing threshold—the voltage potential required at the axon initiation segment to trigger or fire an action potential spike. 
+Naundorf et al. found significant variability in spike threshold in cortical neurons in vivo compared to in vitro or simulated neurons.
+Are this variability and its consequent alteration of outputs dependent on collective integration among gap-junction-synchronized dendrites? 
+Does it correlate with consciousness?
 Zombie mice on auto-pilot.
-
-If specific proteins and genes are essential to consciousness, mice could be genetically engineered to lack these genes and their proteins. In principle, such mice would lack consciousness but retain non-conscious auto-pilot behavior. According to Koch, such “zombie” (auto-pilot) mice could be distinguished from normal, presumably conscious, mice by a reduced ability for complex spatial learning enabled by consciousness. Connexin 36 provides a test case. Using “knockout” gene technology, Hormuzdi et al. generated mice lacking connexin 36, the primary dendritic–dendritic gap junction protein in cortical neurons. Connexin-36-deficient mice are viable with generally normal behavior but with markedly reduced gamma synchrony. In cognitive testing, the mice showed relatively normal exploratory and anxiety-related responses. However, they were impaired in more complex sensorimotor capacities, learning, and memory (e.g., to complex spatial environments). Could axonal–dendritic auto-pilot neurocomputation continue normally in connexin-36-deficient mice absent dendritic synchrony and the conscious pilot?
-
+If specific proteins and genes are essential to consciousness, mice could be genetically engineered to lack these genes and their proteins. 
+In principle, such mice would lack consciousness but retain non-conscious auto-pilot behavior. 
+According to Koch, such “zombie” (auto-pilot) mice could be distinguished from normal, presumably conscious, mice by a reduced ability for complex spatial learning enabled by consciousness. 
+Connexin 36 provides a test case. 
+Using “knockout” gene technology, Hormuzdi et al. generated mice lacking connexin 36, the primary dendritic–dendritic gap junction protein in cortical neurons. 
+Connexin-36-deficient mice are viable with generally normal behavior but with markedly reduced gamma synchrony. 
+In cognitive testing, the mice showed relatively normal exploratory and anxiety-related responses.
+However, they were impaired in more complex sensorimotor capacities, learning, and memory (e.g., to complex spatial environments). 
+Could axonal–dendritic auto-pilot neurocomputation continue normally in connexin-36-deficient mice absent dendritic synchrony and the conscious pilot?
 6. Summary—synchronized integration and the “conscious pilot”.
-
-The “conscious pilot” synchronized mobile integration model is a new candidate for the NCC. The conscious pilot refers to spatiotemporal envelopes of dendritic gamma synchrony (demarcated by gap-junction-defined “dendritic webs”) moving through the brain as vehicle for a conscious agent which can experience and control otherwise non-conscious (auto-pilot) cognitive functions.
-
-We start with the assumption that cognitive brain functions including sensory processing, motor control of behavior, learning, memory, and attention all occur either with or without consciousness. Without consciousness, cognitive functions are scientifically explained by neurocomputation in neuronal networks, i.e., the brain’s axonal firings and synaptic transmissions acting like “bit states” and switches in computers. These non-conscious functions are deemed the “easy problems,” “zombie modes,” or “auto-pilot.”27 They are not really easy but at least approachable through neurocomputation.
-
-But consciousness—phenomenal awareness and conscious control—does not naturally ensue from neurocomputation. Science seeks to identify specific neuronal brain processes which underlie or correlate with consciousness—the NCC. The best measurable NCC is gamma synchrony EEG, coherent field potential oscillations in the range from 30 to 90 Hz. Gamma synchrony (along with consciousness, apparently) moves and evolves through various global distributions and brain regions.
-
-But like consciousness, gamma synchrony does not ensue from neurocomputation in synaptic networks. Rather, gamma synchrony occurs via “sideways circuits”—neurons (and glia) inter-connected by electrical synapses called gap junctions which physically fuse and electrically couple neighboring cells. In particular, groups of neurons linked by dendritic–dendritic gap junctions form extensive gamma-synchronized syncytia or “dendritic webs” extending through brain regions.
-
-Within neurocomputational networks, dendritic webs are laterally connected input/integration layers which can enable collective integration among synchronized neurons. As gap junctions open and close, spatiotemporal envelopes of synchronized neurons (dendritic webs) move and distribute rapidly around the brain as mobile integrators, vehicles for a conscious agent able to experience and control—tune into and take over—otherwise non-conscious auto-pilot neurocomputation. The conscious agent itself may be some finer-scale process extending within neuronal interiors through the dendritic web.
-
-As a metaphor, an airplane flies on auto-pilot while the conscious pilot is sleeping or out of the cockpit engaged in other activities. If turbulence occurs, or an alarm sounds, the conscious pilot immediately returns to the cockpit and assumes conscious perception and control of the plane. When the problem resolves, the conscious pilot may again wander off as the auto-pilot computer takes over.
-
-In the brain, the auto-pilot is neurocomputation mediated by axonal firings and synaptic transmissions in feed-forward and feedback neuronal networks. The conscious pilot is synchronized collective integration (dendritic webs) moving and evolving sideways through input/integration layers of the same neuronal network architecture. 
+The “conscious pilot” synchronized mobile integration model is a new candidate for the NCC. 
+The conscious pilot refers to spatiotemporal envelopes of dendritic gamma synchrony (demarcated by gap-junction-defined “dendritic webs”) moving through the brain as vehicle for a conscious agent which can experience and control otherwise non-conscious (auto-pilot) cognitive functions.
+We start with the assumption that cognitive brain functions including sensory processing, motor control of behavior, learning, memory, and attention all occur either with or without consciousness. 
+Without consciousness, cognitive functions are scientifically explained by neurocomputation in neuronal networks, i.e., the brain’s axonal firings and synaptic transmissions acting like “bit states” and switches in computers. 
+These non-conscious functions are deemed the “easy problems,” “zombie modes,” or “auto-pilot”.
+They are not really easy but at least approachable through neurocomputation.
+But consciousness—phenomenal awareness and conscious control—does not naturally ensue from neurocomputation.
+Science seeks to identify specific neuronal brain processes which underlie or correlate with consciousness, the NCC.
+The best measurable NCC is gamma synchrony EEG, coherent field potential oscillations in the range from 30 to 90 Hz.
+Gamma synchrony (along with consciousness, apparently) moves and evolves through various global distributions and brain regions.
+But like consciousness, gamma synchrony does not ensue from neurocomputation in synaptic networks. 
+Rather, gamma synchrony occurs via “sideways circuits”—neurons (and glia) inter-connected by electrical synapses called gap junctions which physically fuse and electrically couple neighboring cells. 
+In particular, groups of neurons linked by dendritic–dendritic gap junctions form extensive gamma-synchronized syncytia or “dendritic webs” extending through brain regions.
+Within neurocomputational networks, dendritic webs are laterally connected input/integration layers which can enable collective integration among synchronized neurons. 
+As gap junctions open and close, spatiotemporal envelopes of synchronized neurons (dendritic webs) move and distribute rapidly around the brain as mobile integrators, vehicles for a conscious agent able to experience and control—tune into and take over—otherwise non-conscious auto-pilot neurocomputation. 
+The conscious agent itself may be some finer-scale process extending within neuronal interiors through the dendritic web.
+As a metaphor, an airplane flies on auto-pilot while the conscious pilot is sleeping or out of the cockpit engaged in other activities. 
+If turbulence occurs, or an alarm sounds, the conscious pilot immediately returns to the cockpit and assumes conscious perception and control of the plane. 
+When the problem resolves, the conscious pilot may again wander off as the auto-pilot computer takes over.
+In the brain, the auto-pilot is neurocomputation mediated by axonal firings and synaptic transmissions in feed-forward and feedback neuronal networks. 
+The conscious pilot is synchronized collective integration (dendritic webs) moving and evolving sideways through input/integration layers of the same neuronal network architecture.
