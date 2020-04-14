@@ -5,20 +5,17 @@
 # Edit the variables **checkpoint_path** and **text** to match yours and run the entire code to generate plots of mel outputs, alignments and audio synthesis from the generated mel-spectrogram using Griffin-Lim.
 
 # #### Import libraries and setup matplotlib
-
-# In[1]:
-
-
 import matplotlib
-get_ipython().run_line_magic('matplotlib', 'inline')
 import matplotlib.pylab as plt
 
-import IPython.display as ipd
-
 import sys
+import argparse
+import os
 sys.path.append('waveglow/')
 import numpy as np
 import torch
+import librosa
+from tika import parser
 
 from hparams import create_hparams
 from model import Tacotron2
@@ -29,124 +26,81 @@ from train import load_model
 from text import text_to_sequence
 from denoiser import Denoiser
 
-
-# In[2]:
-
-
-def plot_data(data, figsize=(16, 4)):
-    fig, axes = plt.subplots(1, len(data), figsize=figsize)
-    for i in range(len(data)):
-        axes[i].imshow(data[i], aspect='auto', origin='bottom', 
-                       interpolation='none')
+def main(text): 
+    hparams = create_hparams()
+    hparams.sampling_rate = 22050
+    hparams.gate_threshold = 0.1
 
 
-# #### Setup hparams
-
-# In[3]:
-
-
-hparams = create_hparams()
-hparams.sampling_rate = 22050
+    # #### Load model from checkpoint
+    checkpoint_path = "tacotron2_statedict.pt"
+    model = load_model(hparams)
+    model.load_state_dict(torch.load(checkpoint_path)['state_dict'])
+    _ = model.cuda().eval().half()
 
 
-# #### Load model from checkpoint
+    # #### Load WaveGlow for mel2audio synthesis and denoiser
+    waveglow_path = 'waveglow_256channels.pt'
+    waveglow = torch.load(waveglow_path)['model']
+    waveglow.cuda().eval().half()
 
-# In[4]:
-
-
-checkpoint_path = "tacotron2_statedict.pt"
-model = load_model(hparams)
-model.load_state_dict(torch.load(checkpoint_path)['state_dict'])
-_ = model.cuda().eval().half()
-
-
-# #### Load WaveGlow for mel2audio synthesis and denoiser
-
-# In[5]:
+    for m in waveglow.modules():
+        if 'Conv' in str(type(m)):
+            setattr(m, 'padding_mode', 'zeros')
+            
+    for k in waveglow.convinv:
+        k.float()
+    denoiser = Denoiser(waveglow)
 
 
-waveglow_path = 'waveglow_256channels.pt'
-waveglow = torch.load(waveglow_path)['model']
-waveglow.cuda().eval().half()
+    # #### Prepare text input
+    sequence = np.array(text_to_sequence(text, ['english_cleaners']))[None, :]
+    sequence = torch.autograd.Variable(
+        torch.from_numpy(sequence)).cuda().long()
 
-for m in waveglow.modules():
-    if 'Conv' in str(type(m)):
-        setattr(m, 'padding_mode', 'zeros')
+
+    # #### Decode text input and plot results
+    mel_outputs, mel_outputs_postnet, _, alignments = model.inference(sequence)
+
+    # #### Synthesize audio from spectrogram using WaveGlow
+    with torch.no_grad():
+        audio = waveglow.infer(mel_outputs_postnet, sigma=0.666)
         
-for k in waveglow.convinv:
-    k.float()
-denoiser = Denoiser(waveglow)
-
-
-# #### Prepare text input
-
-# In[6]:
-
-
-#%%timeit 77.9 µs ± 237 ns
-text = "Waveglow is really awesome!"
-sequence = np.array(text_to_sequence(text, ['english_cleaners']))[None, :]
-sequence = torch.autograd.Variable(
-    torch.from_numpy(sequence)).cuda().long()
-
-
-# #### Decode text input and plot results
-
-# In[7]:
-
-
-#%%timeit 240 ms ± 9.72 ms
-mel_outputs, mel_outputs_postnet, _, alignments = model.inference(sequence)
-plot_data((mel_outputs.float().data.cpu().numpy()[0],
-           mel_outputs_postnet.float().data.cpu().numpy()[0],
-           alignments.float().data.cpu().numpy()[0].T))
-
-
-# #### Synthesize audio from spectrogram using WaveGlow
-
-# In[8]:
-
-
-#%%timeit 193 ms ± 4.87 ms
-with torch.no_grad():
-    audio = waveglow.infer(mel_outputs_postnet, sigma=0.666)
+    # #### (Optional) Remove WaveGlow bias
+    audio_denoised = denoiser(audio, strength=0.01)[:, 0]
     
-ipd.Audio(audio[0].data.cpu().numpy(), rate=hparams.sampling_rate)
+    # save
+    if (os.path.isfile("out.wav")):
+        x, sr = librosa.load("out.wav")
+        out = np.append(x, audio[0].data.cpu().numpy().astype(np.float32))
+    else:
+        out = audio[0].data.cpu().numpy().astype(np.float32)
 
-
-# #### (Optional) Remove WaveGlow bias
-
-# In[9]:
-
-
-audio_denoised = denoiser(audio, strength=0.01)[:, 0]
-ipd.Audio(audio_denoised.cpu().numpy(), rate=hparams.sampling_rate) 
-
-
-# #### Save result as wav
-
-# In[10]:
-
-
-import librosa
-
-
-# save
-librosa.output.write_wav('./out.wav', audio[0].data.cpu().numpy().astype(np.float32), 22050)
-
-# check
-y, sr = librosa.load('out.wav')
-ipd.Audio(y, rate=sr) 
-
-
-# In[ ]:
+    librosa.output.write_wav('./out.wav', out, 22050)
 
 
 
+if __name__ == '__main__':
+    if os.path.exists("out.wav"):
+        os.remove("out.wav");
+    a_parser = argparse.ArgumentParser()
+    a_parser.add_argument("--file", type=str)
 
+    args = a_parser.parse_args()
 
-# In[ ]:
+    if not os.path.exists(args.file) or not os.path.isfile(args.file):
+        raise Exception("Data set path given does not exists")
+    elif args.file.endswith(".pdf"):
+        print("Not Working yet! Special characters are not parsed correclty and not evaluatable line by line")
+        raw = parser.from_file(args.file)
+        raw = str(raw)
+        safe_text = raw.encode('utf-8', errors='ignore')
+    elif args.file.endswith(".txt"):
+        with open(args.file, "r") as readfile:
+            safe_text = readfile.read()
 
+    print('--- safe text ---') 
+    print(safe_text)
 
-
-
+    for line in safe_text:
+        main(line)
