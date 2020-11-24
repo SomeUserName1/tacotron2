@@ -86,12 +86,7 @@ def main(text):
         out = np.append(x, audio[0].data.cpu().numpy().astype(np.float32))
     else:
         out = audio[0].data.cpu().numpy().astype(np.float32)
-<<<<<<< HEAD
-
-=======
-        librosa.output.write_wav('./first.wav', out, 22050)
     
->>>>>>> 64598f0aa9e9388219aed0920f716cb2eccef77b
     librosa.output.write_wav('./out.wav', out, 22050)
 
 
@@ -113,7 +108,6 @@ if __name__ == '__main__':
         safe_text = raw.encode('utf-8', errors='ignore')
     elif args.file.endswith(".txt"):
         with open(args.file, "r") as readfile:
-<<<<<<< HEAD
             safe_text = readfile.read()
 
     print('--- safe text ---') 
@@ -121,10 +115,3 @@ if __name__ == '__main__':
 
     for line in safe_text:
         main(line)
-=======
-            line = readfile.readline()
-            while line:
-                print(line)
-                main(line)
-                line = readfile.readline()
->>>>>>> 64598f0aa9e9388219aed0920f716cb2eccef77b

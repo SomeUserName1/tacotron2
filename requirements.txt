@@ -1,11 +1,8 @@
 matplotlib
-tensorflow
-numpy
-inflect
-librosa
-scipy
-tensorboardx
-Unidecode
-pillow
 pytorch
-torchvision
+librosa
+tika
+tensorflow-gpu=1.14
+unidecode
+inflect
+tensorboardx
